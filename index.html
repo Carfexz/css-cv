@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dmitry CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="cat.jpg" alt="Тут моя фотка должна быть" class="avatar" />
+
+        <div class="info-text">
+          <h1>Марикода Дмитрий</h1>
+          <p>
+            <em><strong>Frontend</strong> разработчик</em>
+          </p>
+          <p>Будущий стак: HTML5+CSS+Native JS/TypeScript+React</p>
+          <p>Люблю готовить, походы и Warhammer40k</p>
+
+          <h4>Мои социальные и номер:</h4>
+
+          <!-- Для примера пусть будут ссылка на ютуб, так можно указывать любые в целом. -->
+
+          <a href="https://www.youtube.com" target="_blank">Ютуб</a>
+          <a href="https://t.me/carfexz" target="_blank">Телеграмм</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Печатник на HP Indigo</li>
+          <li>Хорошее вино</li>
+          <li>Пешие путешествия</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>Мои достижения</h2>
+        <ul class="link-list">
+          <li class="non-link">
+            <a href="https://www.youtube.com/" target="_blank"
+              >Лендинговая страница с JS (репозиторий) пока ссылки нет</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Carfexz/cv.git" target="_blank"
+              >CV-cтраница (репозиторий)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Мой опыт работы в виде таблицы</h2>
+        <ol>
+          <table class="table">
+            <tr>
+              <th>Компания</th>
+              <th>Должность</th>
+              <th>Год работы</th>
+            </tr>
+            <tr>
+              <td>WorldSkills</td>
+              <td>Print Technology Mentor</td>
+              <td>2018-2021</td>
+            </tr>
+            <tr>
+              <td>Harmens Molokovo</td>
+              <td>Manager</td>
+              <td>2021-2022</td>
+            </tr>
+            <tr>
+              <td>NetPrint</td>
+              <td>Operator</td>
+              <td>2022-now</td>
+            </tr>
+          </table>
+        </ol>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной:</h2>
+
+        <form action="/">
+          <div class="row">
+            <div class="list-group">
+              <li>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Имя вставлять тут" />
+              </li>
+            </div>
+
+            <div class="list-group">
+              <li>
+                <label for="surname">Ваша фамилия:</label>
+                <input
+                  type="text"
+                  id="surname"
+                  placeholder="Фамилию вставлять тут"
+                />
+              </li>
+            </div>
+
+            <div class="list-group">
+              <li>
+                <label for="email">E-mail:</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="E-mail вставлять тут"
+                />
+              </li>
+            </div>
+          </div>
+
+          <div class="list-group">
+            <li>
+              <label for="text">Пара красивых слов:</label>
+              <br />
+              <textarea id="text" name="" id="" cols="30" rows="10"></textarea>
+            </li>
+          </div>
+
+          <input class="btn" type="submit" value="Отправить" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
